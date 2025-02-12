@@ -14,6 +14,8 @@ return new class extends Migration
         Schema::create('peminjaman_detail', function (Blueprint $table) {
             $table->string('peminjaman_detail_peminjaman_id', 10)->nullable(false);
             $table->string('peminjaman_detail_buku_id', 10)->nullable(false);
+
+            //foriegn key
             $table->foreign('peminjaman_detail_peminjaman_id')->references('peminjaman_id')->on('peminjaman')->onDelete('cascade')->onUpdate('cascade');
             $table->foreign('peminjaman_detail_buku_id')->references('buku_id')->on('buku')->onDelete('cascade')->onUpdate('cascade');
         });

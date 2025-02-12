@@ -19,6 +19,8 @@ return new class extends Migration
             $table->boolean('peminjaman_statuskembali')->default(false);
             $table->string('peminjaman_note', 100)->nullable();
             $table->integer('peminjaman_denda')->nullable();
+
+            //foriegn key
             $table->foreign('peminjaman_user_id')->references('user_id')->on('users')->onDelete('cascade')->onUpdate('cascade');
         });
     }
