@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BookController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RequestController;
 use App\Http\Controllers\RoutesController;
@@ -70,3 +71,7 @@ Route::get('/login', [LoginController::class, 'login']);
 Route::post('/login', [LoginController::class, 'postLogin']);
 
 Route::get('/perpustakaan/{buku}', [RoutesController::class, 'perpustakaan']);
+
+Route::get('/book/create', [BookController::class, 'create'])->name('book.create');
+
+Route::post('/book/store', [BookController::class, 'store'])->name('book.store');
