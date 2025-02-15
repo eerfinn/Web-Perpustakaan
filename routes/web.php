@@ -50,22 +50,35 @@ use Symfony\Component\Routing\RequestContext;
 //     return redirect()->action([RoutesController::class, 'Dashboard']);
 // });
 
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/bootstrap', function () {
-    return view('bootstrap');
-});
-
 Route::get('/siswaDashboard', function () {
-    return view('siswaDashboard');
+    return view('/siswa/siswaDashboard');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
+Route::get('/adminDashboard', function () {
+    return view('/admin/adminDashboard');
 });
+
+Route::get('/siswaBuku', function () {
+    return view('/siswa/siswaBuku');
+});
+
+Route::get('/adminBuku', function () {
+    return view('/admin/adminBuku');
+});
+
+Route::get('/siswaCreatePeminjaman', function () {
+    return view('/siswa/siswaCreatePeminjaman');
+});
+
+Route::get('/adminCreateBuku', function () {
+    return view('/admin/adminCreateBuku');
+});
+
+Route::get('/adminUpdateBuku', function () {
+    return view('/admin/adminUpdateBuku');
+});
+
+
 
 Route::get('/login', [LoginController::class, 'login']);
 
