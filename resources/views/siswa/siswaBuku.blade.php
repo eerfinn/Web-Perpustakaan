@@ -67,7 +67,7 @@
                     <div class="row gap-4">
                         <div class="card col-12 col-md-4 col-lg-3">
                             <div class="card-body">
-                                <img src="./img/book.jpeg" alt="Bulan" class="book-img">
+                                <img src="./img/book-cover.jpeg" alt="Bulan" class="book-img">
                                 <hr>
                                 <p class="text-center fw-bolder fs-4 my-0">Bulan</p>
                                 <p class="text-center mb-3">Ditulis oleh Tere Liye</p>
@@ -76,7 +76,7 @@
                         </div>
                         <div class="card col-12 col-md-4 col-lg-3">
                             <div class="card-body">
-                                <img src="./img/book.jpeg" alt="Bulan" class="book-img">
+                                <img src="./img/book-cover.jpeg" alt="Bulan" class="book-img">
                                 <hr>
                                 <p class="text-center fw-bolder fs-4 my-0">Bulan</p>
                                 <p class="text-center mb-3">Ditulis oleh Tere Liye</p>
@@ -85,7 +85,7 @@
                         </div>
                         <div class="card col-12 col-md-4 col-lg-3">
                             <div class="card-body">
-                                <img src="./img/book.jpeg" alt="Bulan" class="book-img">
+                                <img src="./img/book-cover.jpeg" alt="Bulan" class="book-img">
                                 <hr>
                                 <p class="text-center fw-bolder fs-4 my-0">Bulan</p>
                                 <p class="text-center mb-3">Ditulis oleh Tere Liye</p>
